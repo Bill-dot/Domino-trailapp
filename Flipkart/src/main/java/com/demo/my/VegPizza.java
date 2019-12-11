@@ -13,14 +13,6 @@ public class VegPizza {
 	public AndroidDriver<MobileElement> driver;
 	public WebDriverWait wait;
 	
-	@Test(priority=2)
-	public void selectVegPizza() throws InterruptedException {
-		Thread.sleep(3000);
-		System.out.println("searching for Veg button");
-		System.out.println("found Veg Pizza and tapped.");
 
-		driver.findElement(By.xpath("//android.widget.TextView[@text='Veg Pizza'][@resource-id='com.Dominos:id/title_txt1']")).click();
-		
-	}
 
 }

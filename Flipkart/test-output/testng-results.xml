@@ -1,95 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="8076" started-at="2019-12-11T10:22:15Z" finished-at="2019-12-11T10:22:23Z">
+  <suite name="Suite1" duration-ms="28057" started-at="2019-12-11T11:58:19Z" finished-at="2019-12-11T11:58:47Z">
     <groups>
     </groups>
-    <test name="First" duration-ms="5" started-at="2019-12-11T10:22:15Z" finished-at="2019-12-11T10:22:15Z">
-    </test> <!-- First -->
-    <test name="setpup" duration-ms="5027" started-at="2019-12-11T10:22:15Z" finished-at="2019-12-11T10:22:20Z">
-      <class name="com.demo.my.SetUp">
-        <test-method status="FAIL" signature="signIn()[pri:0, instance:com.demo.my.SetUp@5762806e]" name="signIn" duration-ms="5018" started-at="2019-12-11T15:52:15Z" finished-at="2019-12-11T15:52:20Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.demo.my.SetUp.signIn(SetUp.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
-	at org.testng.TestNG.run(TestNG.java:1030)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-      </class> <!-- com.demo.my.SetUp -->
-    </test> <!-- setpup -->
-    <test name="VegPizza" duration-ms="3007" started-at="2019-12-11T10:22:20Z" finished-at="2019-12-11T10:22:23Z">
+    <test name="First" duration-ms="28057" started-at="2019-12-11T11:58:19Z" finished-at="2019-12-11T11:58:47Z">
       <class name="com.demo.my.First">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.my.First@ca263c2]" name="setUp" is-config="true" duration-ms="22837" started-at="2019-12-11T15:51:52Z" finished-at="2019-12-11T15:52:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.my.First@157632c9]" name="setUp" is-config="true" duration-ms="21519" started-at="2019-12-11T17:27:58Z" finished-at="2019-12-11T17:28:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-      </class> <!-- com.demo.my.First -->
-      <class name="com.demo.my.VegPizza">
-        <test-method status="FAIL" signature="selectVegPizza()[pri:0, instance:com.demo.my.VegPizza@50a7bc6e]" name="selectVegPizza" duration-ms="3001" started-at="2019-12-11T15:52:20Z" finished-at="2019-12-11T15:52:23Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.demo.my.VegPizza.selectVegPizza(VegPizza.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
-	at org.testng.TestNG.run(TestNG.java:1030)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.demo.my.First@157632c9]" name="signIn" duration-ms="17791" started-at="2019-12-11T17:28:19Z" finished-at="2019-12-11T17:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="selectVegPizza()[pri:0, instance:com.demo.my.First@157632c9]" name="selectVegPizza" duration-ms="10256" started-at="2019-12-11T17:28:37Z" finished-at="2019-12-11T17:28:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectVegPizza -->
-      </class> <!-- com.demo.my.VegPizza -->
-    </test> <!-- VegPizza -->
+      </class> <!-- com.demo.my.First -->
+    </test> <!-- First -->
   </suite> <!-- Suite1 -->
 </testng-results>

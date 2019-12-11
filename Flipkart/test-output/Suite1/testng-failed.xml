@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]" parallel="none">
-  <test name="setpup(failed)" parallel="none" preserve-order="true">
-    <classes>
-      <class name="com.demo.my.SetUp">
-        <methods>
-          <include name="signIn"/>
-        </methods>
-      </class> <!-- com.demo.my.SetUp -->
-      <class name="com.demo.my.First">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.demo.my.First -->
-    </classes>
-  </test> <!-- setpup(failed) -->
-  <test name="VegPizza(failed)" parallel="none" preserve-order="true">
+<suite verbose="10" name="Failed suite [Suite1]" parallel="none">
+  <test name="First(failed)" parallel="none" preserve-order="true">
     <classes>
       <class name="com.demo.my.First">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.demo.my.First -->
-      <class name="com.demo.my.VegPizza">
         <methods>
           <include name="selectVegPizza"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.demo.my.VegPizza -->
+      </class> <!-- com.demo.my.First -->
     </classes>
-  </test> <!-- VegPizza(failed) -->
+  </test> <!-- First(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
